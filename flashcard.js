@@ -7,35 +7,53 @@ second.addEventListener(click, draaiKaart2)
 const third = document.getElementById("kaart3")
 third.addEventListener(click, draaiKaart3)
 
-// const second = document.getElementById("vraagInKaart1")
-// second.innerText()
+const fourth = document.getElementById("kaart4")
+fourth.addEventListener(click, draaiKaart4)
+
+const fifth = document.getElementById("kaart5")
+fifth.addEventListener(click, draaiKaart5)
+
+const sixth = document.getElementById("kaart6")
+sixth.addEventListener(click, draaiKaart6)
 
 function draaiKaart1() {
-    const heading = document.getElementById("kaart1")
-    console.log(heading)
-    heading.innerText = "Tomorrow"
-    console.log("test!1")
+   const heading = document.getElementById("kaart1")
+   console.log(heading)
+   heading.innerText = "Tomorrow"
+   console.log("test!1")
 }
 
 function draaiKaart2() {
-    const heading = document.getElementById("kaart2")
-    console.log(heading)
-    heading.innerText = "A promise"
-    console.log("test!2")
+   const heading = document.getElementById("kaart2")
+   console.log(heading)
+   heading.innerText = "A promise"
+   console.log("test!2")
 }
 
 function draaiKaart3() {
-    const heading = document.getElementById("kaart3")
-    console.log(heading)
-    heading.innerText = "A cold"
-    console.log("test!3")
+   const heading = document.getElementById("kaart3")
+   console.log(heading)
+   heading.innerText = "A cold"
+   console.log("test!3")
 }
 
-// const vraag0 = "What is always coming, but never arrives?"
-// const vraag1 = "What an be broken, but it never held?"
-// const vraag2 = "What can one catch but is not thrown?"
-// const antw0 = "Tomorrow"
-// const antw1 = "A promise"
-// const antw2 = "A cold" 
-// const arrayVraag = [vraag0, vraag1, vraag2]
-// const arrayAntw = [antw0, antw1, antw2]
+function draaiKaart4() {
+   const heading = document.getElementById("kaart4")
+   console.log(heading)
+   heading.innerText = "He was bald"
+   console.log("test!4")
+}
+
+function draaiKaart5() {
+   const heading = document.getElementById("kaart5")
+   console.log(heading)
+   heading.innerText = "A widow"
+   console.log("test!5")
+}
+
+function draaiKaart6() {
+   const heading = document.getElementById("kaart6")
+   console.log(heading)
+   heading.innerText = "A towel"
+   console.log("test!6")
+}
