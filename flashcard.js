@@ -57,3 +57,7 @@ function draaiKaart6() {
    heading.innerText = "A towel"
    console.log("test!6")
 }
+
+function dikkepopup(){
+    alert("TIME FOR SOME BEER");
+}
